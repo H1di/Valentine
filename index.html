@@ -47,8 +47,7 @@
 
 <style type="text/css">
 
-    @media (min-width: 800px) {
-            * {
+* {
         box-sizing: border-box;
         font-family: "Palatino Linotype", serif;
         color: black;
@@ -115,7 +114,8 @@ p {
         -webkit-animation: cardIn 1s alternate cubic-bezier(0.87, -0.41, 0.19, 1.44);
         animation: cardIn 1s alternate cubic-bezier(0.87, -0.41, 0.19, 1.44);
     }
-    }
+    
+    
     
     @media (min-width: 500px) and (max-width: 800px) {
         .card {
@@ -143,56 +143,6 @@ p {
         -webkit-text-stroke: 0.1px white;
     }
 
-    /* slider */
-
-.slider {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-
-.slider img {
-    max-height: 25em;
-}
-
-/* end slider */
-
-    .card-page-head {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-    }
-
-    .card-page-head img {
-        height: auto;
-        width: 100%;
-    }
-
-    body {
-        background-color: pink;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100%;
-        width: auto;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
-
-    .card {
-        perspective: 1500px;
-        position: absolute;
-        left: calc(50% - 175px);
-        top: calc(50% - 250px);
-        transition-property: transform;
-        transition-duration: 1s;
-        transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        transition-delay: initial;
-        transform: rotate(-10deg) translate(0, 0);
-        -webkit-animation: cardIn 1s alternate cubic-bezier(0.87, -0.41, 0.19, 1.44);
-        animation: cardIn 1s alternate cubic-bezier(0.87, -0.41, 0.19, 1.44);
-    }
-    }
     @media (min-width: 300px) and (max-width: 500px) {
         .card {
             left: calc(50% - 75px);
@@ -219,58 +169,7 @@ p {
         color: black;
         -webkit-text-stroke: 0.1px white;
     }
-
-    /* slider */
-
-.slider {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-
-.slider img {
-    max-height: 25em;
-}
-
-/* end slider */
-
-    .card-page-head {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
     }
-
-    .card-page-head img {
-        height: auto;
-        width: 100%;
-    }
-
-    body {
-        background-color: pink;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100%;
-        width: auto;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
-
-    .card {
-        perspective: 1500px;
-        position: absolute;
-        left: calc(50% - 175px);
-        top: calc(50% - 250px);
-        transition-property: transform;
-        transition-duration: 1s;
-        transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        transition-delay: initial;
-        transform: rotate(-10deg) translate(0, 0);
-        -webkit-animation: cardIn 1s alternate cubic-bezier(0.87, -0.41, 0.19, 1.44);
-        animation: cardIn 1s alternate cubic-bezier(0.87, -0.41, 0.19, 1.44);
-    }
-    }
-
         /* end mob  */
     .card:before {
         content: "";
